@@ -352,14 +352,15 @@ nav>ul>button{
 .reviews-cards{
     background-color: #fff;
     margin-top: 5vh;
-    height: 95%;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .reviews-cards>*{
-    width: 45%;
+    width: 48%;
     padding: 3vh 3vh;
     height: 40%;
     text-align: left;
@@ -405,7 +406,8 @@ nav>ul>button{
 
 
 .section-7{
-    height: 40vh;
+    margin-top: 50px;
+    height: 35vh;
     opacity: 0.8;
     padding: 3vh 12vh;
     background: url(./assets/footer-bg.svg);
